@@ -31,7 +31,7 @@ public static void main(String[] args) {
 		Ghost3.update();
 		
 		
-		public static 
+		
 	if (Player.getX() == Key.getX() && Player.getY() == Key.getY() ) {
 				gotKey = true;
 				System.out.println("You got the Key! Get to the Exit!");

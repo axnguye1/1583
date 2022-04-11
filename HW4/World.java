@@ -15,6 +15,8 @@ public class World{
 			int cols = input.nextInt();
 			setLevel(lvl, rows, cols, input);
 		}
+
+		//String[] ghosts = {"Ghost", "Ghost2", "Ghost3"};
 	}
 
 	public static void setLevel(int lvl, int rows, int cols, Scanner input){
