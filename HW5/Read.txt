@@ -1,0 +1,10 @@
+Amanda Nguyen
+DodgerGame
+
+Welcome! My game involves the control of two playes, whether you play alone or with two, doesn't matter.
+=controls=
+Player 1 is the space man and your goal is to dodge the stars, they hurt! Use your mouse button to move around.
+Player 2 you are a space dog! your goal is to help the man to live by collecting air tanks for him with 'a' and 'd' controls. Collecting the rubies is a bonus, more rubies the higher your score. If your human has no more air they can't continue. 
+
+When done add your gem score to your total time for your high score.(Mine is around 120, I'm not the best).
+Dodge away player. Good Luck!

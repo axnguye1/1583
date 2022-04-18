@@ -11,6 +11,7 @@ public class Scene {
 	private Player player;
 	private Dog dog;
 	
+	
 
 
 
@@ -33,10 +34,12 @@ public void draw() {
 		monster.draw();
 	}
 	for (Oxygen tank : tanks) {
+		if (dog.isTouching2(tank)==false)
 		tank.draw();
 	}
 	for (Gem crystal : crystals){
-		crystal.draw();
+		if (dog.isTouching3(crystal)==false){
+		crystal.draw(); }
 	}
 	player.draw();
 	dog.draw();
