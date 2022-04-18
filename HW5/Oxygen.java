@@ -1,4 +1,4 @@
-public class Enemy {
+public class Oxygen {
 	private String image;
 	private int width;
 	private int height;
@@ -6,13 +6,13 @@ public class Enemy {
 	private double y;
 	private int speed;
 
-	public Enemy(double x, double y){
+	public Oxygen(double x, double y){
 		this.x = x;
 		this.y = y;
 		this.width=32;
 		this.height=32;
-		this.image="assets/asteroid.png";
-		this.speed = (int) (3 + Math.random() * 10);
+		this.image="assets/oxygen.png";
+		this.speed = (int) (5 + Math.random() * 10);
 
 	} public void draw() {
 		StdDraw.picture(x, y, image, width, height);
