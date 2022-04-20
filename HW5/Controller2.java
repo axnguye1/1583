@@ -16,20 +16,16 @@ public class Controller2 {
 			double dogX = dog.getX();
 			double dogY = dog.getY();
 			char key = StdDraw.nextKeyTyped();
-			if (key == 'a'){
-				x-=32;
-				//if(x>=Scene.getWidth()){
-				//x = Scene.getWidth() - 32;
-				//}
-			}
-			if (key == 'd'){
-				x += 32;
-			//if(x >= Scene.getWidth()){
-			//	x = Scene.getWidth() - 32;
-			//	}
+
+			if (key == 'a') dogX-= dog.getSpeed();
+			if (key == 'd') dogX+= dog.getSpeed();
+			dog.move(dogX,dogY);
+				
+				
+			
 			}
 		}
-	}
+	
 	
 	public void update(){
 		
