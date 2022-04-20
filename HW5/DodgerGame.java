@@ -57,6 +57,7 @@ public class DodgerGame {
 		for (Gem crystal: scene.getCrystals() ){
 			if(dog.isTouching3(crystal) ){
 				score++;
+
 			}
 		}
 	}
